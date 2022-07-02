@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Calculator {
 
-    //Этот класс проводит математическую операцию в шести ступенях:
+    //Этот класс проводит математическую операцию в пяти ступенях:
 
     public static void main(String[] args) {
 
@@ -32,7 +32,7 @@ public class Calculator {
             System.out.println(ArabCalculate.toCalculate(a, x, b));
         }
 
-        //6.Если были введены римские числа, то результат работы метода выводится на консоль:
+        //5.Если были введены римские числа, то результат работы метода выводится на консоль:
         catch (Exception e) {
             System.out.println(RomanCalculate.toCalculate(a, x, b));
         }
